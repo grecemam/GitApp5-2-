@@ -60,6 +60,7 @@ namespace тортик
                     {
                         cost += zakaz[position - 1].dops[pos].price;
                         sostav += zakaz[position - 1].dops[pos].dop + zakaz[position - 1].dops[pos].price;
+                        break;
                     }
 
                     Console.Clear();
@@ -71,13 +72,11 @@ namespace тортик
                     Console.WriteLine("=>");
                     key1 = Console.ReadKey();
                 }
-                //cost += zakaz[position - 1].dops[pos].price;
-                //sostav += zakaz[position - 1].dops[pos].dop + zakaz[position - 1].dops[pos].price;
             }
         }
         static void Menu(List<Cakes> torts)
         {
-            Console.WriteLine("Вы в мазагине тортов, сделайте онлайн заказ");
+            Console.WriteLine(" Вы в мазагине тортов, сделайте онлайн заказ");
             foreach (Cakes c in torts)
             {
                 Console.WriteLine("  " + c.osn);

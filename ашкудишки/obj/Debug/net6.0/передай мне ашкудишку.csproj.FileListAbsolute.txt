@@ -1,0 +1,15 @@
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\bin\Debug\net6.0\передай мне ашкудишку.exe
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\bin\Debug\net6.0\передай мне ашкудишку.deps.json
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\bin\Debug\net6.0\передай мне ашкудишку.runtimeconfig.json
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\bin\Debug\net6.0\передай мне ашкудишку.dll
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\bin\Debug\net6.0\передай мне ашкудишку.pdb
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.csproj.AssemblyReference.cache
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.AssemblyInfoInputs.cache
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.AssemblyInfo.cs
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.csproj.CoreCompileInputs.cache
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.dll
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\refint\передай мне ашкудишку.dll
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.pdb
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\передай мне ашкудишку.genruntimeconfig.cache
+C:\Users\maksi\OneDrive\Документы\Практические работы по с#\тортик\тортик\obj\Debug\net6.0\ref\передай мне ашкудишку.dll

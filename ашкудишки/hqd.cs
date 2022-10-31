@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace тортик
 {
-    internal class Cakes
+    internal class hqd
     {
-        public Cakes ( string Osn)
+        public hqd ( string Osn)
         {
             osn = Osn;
         }
         public string osn;
-        public List<DopCakes> dops;
+        public List<dophqd> dops;
 
     }
 }

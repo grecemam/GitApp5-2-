@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace тортик
 {
-    internal class DopCakes
+    internal class dophqd
     {
-        public DopCakes(string Dop, int Price)
+        public dophqd(string Dop, int Price)
         {
             dop = Dop;
             price = Price;

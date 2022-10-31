@@ -38,8 +38,8 @@ namespace тортик
                     Console.WriteLine("=>");
                     key = Console.ReadKey();
                 }
-                Console.Clear();
 
+                Console.Clear();
                 int pos = 1;
                 ConsoleKeyInfo key1 = Console.ReadKey();
                 while (true)
@@ -86,46 +86,40 @@ namespace тортик
         }
         static List<Cakes> MakeCakes()
         {
-            Cakes c1 = new Cakes();
-            c1.osn = "форма";
+            Cakes c1 = new Cakes("форма");
 
             DopCakes dopKrug = new DopCakes(" Круг-", 100);
             DopCakes dopKvad = new DopCakes(" Квадрат - ", 200);
             DopCakes dopLove = new DopCakes(" Сердце-", 10000);
             c1.dops = new List<DopCakes>() { dopKrug, dopKvad, dopLove };
 
-            Cakes c2 = new Cakes();
-            c2.osn = "размер";
+            Cakes c2 = new Cakes("размер");
             DopCakes dop1 = new DopCakes(" диаметр 10 см-", 150);
             DopCakes dop2 = new DopCakes(" диаметр 20см-", 250);
             DopCakes dop3 = new DopCakes(" диаметр 30 см-", 10000);
             c2.dops = new List<DopCakes>() { dop1, dop2, dop3 };
 
 
-            Cakes c3 = new Cakes();
-            c3.osn = "декор";
+            Cakes c3 = new Cakes("декор");
             DopCakes dopKrem = new DopCakes(" Крем-", 75);
             DopCakes dopBezDekora = new DopCakes(" Без декора-", 0);
             DopCakes dopSaxBum = new DopCakes(" Сахараная бумага-", 100);
             c3.dops = new List<DopCakes>() { dopKrem, dopBezDekora, dopSaxBum };
 
 
-            Cakes c4 = new Cakes();
-            c4.osn = "начинка";
+            Cakes c4 = new Cakes("начинка");
             DopCakes dopCherry = new DopCakes(" Вишня-", 100);
             DopCakes dopStraw = new DopCakes(" Клубника-", 120);
             DopCakes dopSnik = new DopCakes(" Сникерс-", 300);
             c4.dops = new List<DopCakes>() { dopCherry, dopStraw, dopSnik };
 
-            Cakes c5 = new Cakes();
-            c5.osn = "глазурь";
+            Cakes c5 = new Cakes("глазурь");
             DopCakes dopChok = new DopCakes(" Шоколад-", 100);
             DopCakes dopVanil = new DopCakes(" Ваниль-", 120);
             DopCakes dopKaramel = new DopCakes(" Карамель-", 200);
             c5.dops = new List<DopCakes>() { dopChok, dopVanil, dopKaramel };
 
-            Cakes c6 = new Cakes();
-            c6.osn = "Конец заказа";
+            Cakes c6 = new Cakes("Конец заказа");
             List<Cakes> list = new List<Cakes>();
             list.Add(c1);
             list.Add(c2);
@@ -139,9 +133,9 @@ namespace тортик
         static void Soxr()
         {
             DateTime date = DateTime.Now;
-            File.AppendAllText("C:\\Users\\maksi\\OneDrive\\Рабочий стол\\торты.txt", "\nДата:" + date);
-            File.AppendAllText("C:\\Users\\maksi\\OneDrive\\Рабочий стол\\торты.txt","\nЦена:" + cost.ToString());
-            File.AppendAllText("C:\\Users\\maksi\\OneDrive\\Рабочий стол\\торты.txt", "\nВаш заказ: " + sostav.ToString());
+            File.AppendAllText("C:\\Users\\maksi\\OneDrive\\Рабочий стол\\заказы.txt", "\nДата:" + date);
+            File.AppendAllText("C:\\Users\\maksi\\OneDrive\\Рабочий стол\\заказы.txt", "\nЦена:" + cost.ToString());
+            File.AppendAllText("C:\\Users\\maksi\\OneDrive\\Рабочий стол\\заказы.txt", "\nВаш заказ: " + sostav.ToString());
         }
     }
 }
